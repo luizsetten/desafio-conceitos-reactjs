@@ -22,6 +22,8 @@ export function TaskList() {
       isComplete: false,
       id: Math.floor(Math.random() * 65536) - 32768
     }]);
+
+    setNewTaskTitle('');
   }
 
   function handleToggleTaskCompletion(id: number) {
